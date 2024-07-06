@@ -269,6 +269,21 @@ body {
    width: 2.5rem;
    margin-right: 1.25rem;
 }
+.steps-buttons {
+   display: none;
+   justify-content: flex-end;
+   height: 40px;
+}
+.steps-button-prev,
+.steps-button-next {
+   background-color: rgb(92, 142, 230);
+   height: 100%;
+   width: 60px;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+   cursor:pointer;
+}
 @media (max-width: 1700px) {
    html {
       font-size: 14px;
@@ -316,6 +331,9 @@ body {
       padding-right: 2rem;
    }
    .slider-buttons {
+      display: flex;
+   }
+   .steps-buttons {
       display: flex;
    }
 }
@@ -444,6 +462,9 @@ body {
    .mobile-images-item {
       text-decoration: none;
       margin-right: .9375rem;
+   }
+   .section-title {
+      font-size: 2.25rem;
    }
 }
 @media (max-width: 768px) {
