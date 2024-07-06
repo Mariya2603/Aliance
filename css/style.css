@@ -424,4 +424,8 @@ body {
    .close-menu .mobile-menu-line:nth-child(3) {
       transform: rotate(-45deg) translateY(-10px);
    }
+   .mobile-images-item {
+      text-decoration: none;
+      margin-right: .9375rem;
+   }
 }
