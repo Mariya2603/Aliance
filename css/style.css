@@ -58,6 +58,9 @@ body {
    color: rgb(41, 45, 51);
    height: 4.625rem;
 }
+.logo {
+   display: none;
+}
 .logo-svg {
    width: 9rem;
    height: 2.75rem;
