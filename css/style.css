@@ -279,7 +279,7 @@ body {
    margin-top: .625rem;
    margin-bottom: 1.25rem;
 }
-.steps-link {
+.button-link {
    display: flex;
    align-items:center;
    text-decoration: none;
@@ -288,7 +288,7 @@ body {
    font-weight: 600;
    line-height: 160%;
 }
-.steps-link::before {
+.button-link::before {
    content: "";
    height: .0625rem;
    background: rgb(92, 142, 230);
@@ -296,7 +296,7 @@ body {
    margin-right: 1.25rem;
    transition: width 0.2s;
 }
-.steps-link:hover:before {
+.button-link:hover:before {
    width: 3.75rem;
 }
 .steps-buttons {
@@ -413,6 +413,30 @@ body {
 .trademark-card:hover .trademark-card-title {
    color: #5C8EE6;
 }
+.founder {
+   position: relative;
+}
+.founder-photo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 40%;
+   min-height: 41.25rem;
+   object-fit: cover;
+}
+.founder-content-wrapper {
+   display: flex;
+   justify-content: flex-end;
+}
+.founder-content {
+   max-width: 45rem;
+}
+.founder-text {
+   color: rgb(130, 138, 153);
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 160%;
+}
 @media (max-width: 1700px) {
    html {
       font-size: 14px;
@@ -470,6 +494,9 @@ body {
    }
    .trademark-card {
       grid-template-columns: auto auto;
+   }
+   .founder-content {
+      max-width: 35rem;
    }
 }
 @media (max-width: 992px) {
@@ -624,6 +651,11 @@ body {
    }
    .card {
       flex-basis: 100%;
+   }
+   .founder-photo {
+      position: relative;
+      width: 100%;
+      margin-bottom: 3.125rem;
    }
 }
 @media (max-width: 576px) {
