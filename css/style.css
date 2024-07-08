@@ -541,9 +541,10 @@ body {
 }
 .section-cta {
    position: relative;
-   padding-top: 100px;
+   padding-top: 6.25rem;
    margin-top: 9.375rem;
    padding-bottom: 6.25rem;
+   
 }
 .cta-image {
    position: absolute;
@@ -557,11 +558,11 @@ body {
    justify-content: flex-end;
 }
 .cta-form {
-   max-width: 840px;
+   max-width: 52.5rem;
 }
 .cta-form-text {
    color: rgb(130, 138, 153);
-   font-size: 16px;
+   font-size: 1rem;
    font-weight: 400;
    line-height: 160%;
    margin-top: 1.375rem;
@@ -576,7 +577,7 @@ body {
    position: relative;
    height: 4.125rem;
    flex-grow: 1;
-   background-color: #F0F2F5;
+   background-color: rgb(240, 242, 245);
 }
 .input {
    width: 100%;
@@ -585,7 +586,7 @@ body {
    top: 0;
    left: 0;
    padding: 1.25rem 1.875rem;
-   border: 1px solid rgb(228, 228, 235);
+   border: 1px solid #E4E4EB;
    background-color: transparent;
 }
 .input-group-label {
@@ -594,12 +595,13 @@ body {
    top: 1.5rem;
    left: 1.975rem;
    color: rgb(130, 138, 153);
-   font-size: 1rem;
+   font-size: 16px;
    font-weight: 400;
+   line-height: 160%;
    transition: top 0.2s, left 0.2s, font-size 0.2s;
 }
 .input:focus {
-   border: 1px solid rgb(92, 142, 230);
+   border: 1px solid #5C8EE5;
    outline: 0;
 }
 .input:focus ~ .input-group-label, 
@@ -608,7 +610,7 @@ body {
    left: 1.25rem;
    font-size: .625rem;
    background-color: inherit;
-   padding: 0 .625rem;
+   padding: 0 10px;
 }
 .cta-form-footer {
    display: flex;
@@ -635,7 +637,7 @@ body {
    font-weight: 400;
    line-height: 160%;
 }
-@media (max-width: 106.25rem) {
+@media (max-width: 1700px) {
    html {
       font-size: .875rem;
    }
