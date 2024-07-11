@@ -56,10 +56,19 @@ body {
 .navbar-light {
    background-color: #fff;
    color: rgb(41, 45, 51);
-   height: 4.625rem;
+
 }
-.logo {
+.logo-dark {
    display: none;
+}
+.navbar-light .logo-light {
+   display: none;
+}
+.navbar-light .logo-dark {
+   display: block;
+}
+.navbar-scroll {
+   height: 4.5rem;
 }
 .logo-svg {
    width: 9rem;
