@@ -23,6 +23,100 @@ body {
 .header {
    padding-top: 5.875rem;
 }
+.header-grey {
+   position: relative;
+   background-color: #F0F2F5;
+   padding-top: 3.125rem;
+   padding-bottom: 3.125rem;
+   height: 270px;
+   margin-top: 4.8125rem;
+}
+.header-grey-light {
+   position: relative;
+   background-image: url(../img/header-light.png);
+   padding-top: 3.125rem;
+   padding-bottom: 3.125rem;
+   height: 270px;
+   margin-top: 4.8125rem;
+}
+.section-title-light {
+   font-family: 'Bebas Neue Book';
+   color: #FFFFFF;
+   font-size: 3.75rem;
+   font-weight: 400;
+   line-height: 120%;
+   width: 60%;
+}
+.header-grey-wrap {
+   display: flex;
+   align-items: center;
+}
+.breadcrumb {
+   padding-left: 0;
+   list-style: none;
+   display: flex;
+}
+.breadcrumb-item {
+   position: relative;
+}
+.breadcrumb-item-light {
+   position: relative;
+}
+.breadcrumb-item::after {
+   display: block;
+   position: absolute;
+   top: 50%;
+   right: 8px;
+   color: black;
+   content: "";
+   height: 1px;
+   width: 14px;
+   background-color: rgb(130, 138, 153);
+}
+.breadcrumb-item-light::after {
+   display: block;
+   position: absolute;
+   top: 50%;
+   right: 8px;
+   /* color: black; */
+   content: "";
+   height: 1px;
+   width: 14px;
+   background-color: #fff;
+}
+.breadcrumb-link {
+   color: rgb(130, 138, 153);
+   font-size: .875rem;
+   font-weight: 400;
+   line-height: 160%;
+   text-decoration: none; 
+   margin-right: 2.1875rem;
+}
+.breadcrumb-link-light {
+   color: #fff;
+   font-size: .875rem;
+   font-weight: 400;
+   line-height: 160%;
+   text-decoration: none; 
+   margin-right: 2.1875rem;
+}
+.breadcrumb-text {
+   color: rgb(41, 45, 51);
+   font-size: .875rem;
+   font-weight: 400;
+   line-height: 160%;
+}
+.breadcrumb-text-light {
+   color: #fff;
+   font-size: .875rem;
+   font-weight: 400;
+   line-height: 160%;
+}
+.header-grey-image {
+   position: absolute;
+   top: 30px;
+   right: 0;
+}
 .header-image {
    position: relative;
    background-image: url('../img/header-bg.png');
